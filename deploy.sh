@@ -14,8 +14,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git config --global user.name "Richard-LiSR"
-git config --global user.email "2837657164@qq.com"
 
 # github地址
 git push -f git@github.com:Richard-LiSR/Vue_blog.git master:gh-pages
