@@ -59,7 +59,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://cdn.jsdelivr.net/gh/Richard-LiSR/PicBed/blog_img/blog-author.jpg',
     name: 'Richard_Li',
-    slogan: '程序猿届的小学生',
+    slogan: '程序猿届的小学生，努力升学中！',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
