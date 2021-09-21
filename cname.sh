@@ -4,4 +4,4 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-echo 'vue.richard-lsr.top' > CNAME
+echo 'blog.richard-lsr.top' > CNAME
