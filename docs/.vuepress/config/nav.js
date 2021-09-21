@@ -21,7 +21,7 @@ module.exports = [
     items: [
       { text: '编程语言',
         items:[
-          {text:'C语言教程',link:'/pages/0b36bc/'},
+          {text: 'C语言教程', link:'/pages/0b36bc/'},
           {text:'python语言教程',link:''}
         ]},
       { text: '数据库',
