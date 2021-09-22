@@ -1,6 +1,8 @@
 const head = require('./config/head.js');
 const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
+const moment = require('moment')
+moment.locale("zh_cn")
 
 module.exports = {
   theme: 'vdoing', // 使用npm包主题
@@ -15,7 +17,6 @@ module.exports = {
   head,
   themeConfig,
   plugins,
-
   // 额外的插件，单独列出来
   plugins: {
     '@vssue/vuepress-plugin-vssue': {
@@ -41,7 +42,7 @@ module.exports = {
           position: "right", // 显示位置：left/right(default: 'right')
           width: 135, // 模型的长度(default: 135)
           height: 300, // 模型的高度(default: 300)
-          hOffset: 75, //  水平偏移(default: 65)
+          hOffset: 80, //  水平偏移(default: 65)
           vOffset: -20, //  垂直偏移(default: 0)
         },
         mobile: {
@@ -52,24 +53,27 @@ module.exports = {
         }
       }
     },
+    // 谷歌分析
     'minimal-analytics': { ga: 'UA-207934743-1' },
+// 百度统计分析
     'vuepress-plugin-baidu-tongji-analytics': {
       hm: '74934896630d727079ccbbc7f4725f3c',
       dev: true
     },
-    'vuepress-plugin-meilisearch':
-    {
-      hostUrl: 'https://mymeilisearch.com',
-      apiKey: 'XXX',
-      indexUid: 'docs'
-    },
     '@vuepress/pwa': {
       serviceWorker: true,
       updatePopup: {
-        message: "有新内容出现，请注意查收",
+        message: "有新内容更新，请记得查收哦！",
         buttonText: "刷新"
       }
-    }
+    },
+    '@vuepress/last-updated':// "上次更新"时间格式
+    {
+      transformer: (timestamp, lang) => {
+        const dayjs = require('dayjs') // https://day.js.org/
+        return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
+      }
+    },
   },
 
 }

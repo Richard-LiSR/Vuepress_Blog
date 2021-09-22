@@ -25,7 +25,9 @@ module.exports = {
 
   bodyBgImg: [
     // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
-    'https://cdn.jsdelivr.net/gh/Richard-LiSR/PicBed/blog_img/bg5.jpg'
+    'https://cdn.jsdelivr.net/gh/Richard-LiSR/PicBed/blog_img/bg6.jpg',
+    // 'https://cdn.jsdelivr.net/gh/Richard-LiSR/PicBed/blog_img/bg5.jpg'
+
   ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
   bodyBgImgOpacity: 1.0, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
@@ -92,7 +94,7 @@ module.exports = {
     createYear: 2021, // 博客创建年份
     //版权连接暂未设置
     copyrightInfo:
-      'MIT | <a href="https://gitee.com/Richard-LiSR/vuepress_blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'MIT | <a href="https://github.com/Richard-LiSR/Vue_blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
   // htmlModules // 插入hmtl(广告)模块
 }
