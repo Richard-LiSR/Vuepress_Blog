@@ -44,7 +44,7 @@ module.exports = {
           width: 135, // 模型的长度(default: 135)
           height: 300, // 模型的高度(default: 300)
           hOffset: 80, //  水平偏移(default: 65)
-          vOffset: -40, //  垂直偏移(default: 0)
+          vOffset: -60, //  垂直偏移(default: 0)
         },
         mobile: {
           show: false // 是否在移动设备上显示(default: false)

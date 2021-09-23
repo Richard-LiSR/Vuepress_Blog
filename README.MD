@@ -5,9 +5,11 @@
 [![GitHub license](https://img.shields.io/github/license/Richard-LiSR/Vue_blog)](https://github.com/Richard-LiSR/Vue_blog/blob/master/LICENSE)
 
 # Vuepress_Blog
-### 基于Vuepress的个人博客兼知识库系统，主题是来自[xugaoyi](https://github.com/xugaoyi)所开发的vuepress-theme-vdoing
+* 基于Vuepress的个人博客兼知识库系统，主题是来自[xugaoyi](https://github.com/xugaoyi)所开发的vuepress-theme-vdoing
 
+* 目前仅添加了技术这一版块，其余版块还在持续开发中！
 
+---------------------------------------------------
 ### 更新日志
 
 ### 2021-09-20：
