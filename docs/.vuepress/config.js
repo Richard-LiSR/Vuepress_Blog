@@ -1,8 +1,9 @@
 const head = require('./config/head.js');
 const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
-const moment = require('moment')
-moment.locale("zh_cn")
+
+const moment = require('moment');
+
 
 module.exports = {
   theme: 'vdoing', // 使用npm包主题
@@ -46,7 +47,7 @@ module.exports = {
           vOffset: -20, //  垂直偏移(default: 0)
         },
         mobile: {
-          show: true // 是否在移动设备上显示(default: false)
+          show: false // 是否在移动设备上显示(default: false)
         },
         react: {
           opacity: 1 // 模型透明度(default: 0.8)
@@ -69,13 +70,23 @@ module.exports = {
         buttonText: "刷新"
       }
     },
-    '@vuepress/last-updated':// "上次更新"时间格式
+    // '@vuepress/last-updated':// "上次更新"时间格式
+    // {
+    //   transformer: (timestamp, lang) => {
+    //     const dayjs = require('dayjs') // https://day.js.org/
+    //     dayjs.locale("zh_cn")
+    //     return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
+    //   }
+    // },
+
+    '@vuepress/last-updated':
     {
       transformer: (timestamp, lang) => {
-        const dayjs = require('dayjs') // https://day.js.org/
-        return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
+        // 不要忘了安装 moment
+        const moment = require('moment')
+        moment.locale("zh-cn")
+        return moment(timestamp).fromNow("LLLL")
       }
     },
-  },
-
+  }
 }
