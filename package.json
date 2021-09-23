@@ -19,7 +19,6 @@
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-demo-block": "^0.7.2",
-    "vuepress-plugin-demo-container": "^0.2.0",
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-go-top": "^1.0.4",
     "vuepress-plugin-minimal-analytics": "^0.1.4",

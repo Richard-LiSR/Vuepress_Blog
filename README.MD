@@ -8,7 +8,7 @@
 ### 基于Vuepress的个人博客兼知识库系统，主题是来自[xugaoyi](https://github.com/xugaoyi)所开发的vuepress-theme-vdoing
 
 
-### 更新日志（gitee版本保持同步更新）
+### 更新日志
 
 ### 2021-09-20：
 * 1、 添加了live2D

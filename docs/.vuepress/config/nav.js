@@ -41,7 +41,7 @@ module.exports = [
     text: '🙌更多',
     link: '/more/',
     items: [
-      {text:'高等数学',link:''},
+      {text:'高等数学',link:''},  //新添加页面，目录中还未添加！
       { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
       { text: '友情链接', link: '/friends/' },
     ],

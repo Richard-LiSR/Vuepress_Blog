@@ -15,7 +15,7 @@ module.exports = {
   docsDir: 'docs', // 编辑的文件夹
   docsBranch: 'master',
   editLinks: true, // 启用编辑
-  editLinkText: '帮助我改善此页面',
+  editLinkText: '在Github中编辑',
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
 
