@@ -57,7 +57,7 @@ module.exports = {
     'minimal-analytics': { ga: 'UA-207934743-1' },
 
 
-// 百度统计分析
+    // 百度统计分析
     'vuepress-plugin-baidu-tongji-analytics': {
       hm: 'f50554d8e721d0b8d1d3fd07a95431e7',
       dev: true

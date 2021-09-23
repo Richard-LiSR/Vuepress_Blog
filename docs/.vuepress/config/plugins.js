@@ -39,5 +39,9 @@ module.exports = [
   ],
 
   ['vuepress-plugin-reading-time'],
+  
+  ['go-top'],
+  
+  ['demo-container']
 
 ]
