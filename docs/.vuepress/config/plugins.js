@@ -42,6 +42,7 @@ module.exports = [
   
   ['go-top'],
   
-  ['demo-container']
+  ['demo-container'],
+  ['@vuepress/last-updated']
 
 ]

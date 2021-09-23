@@ -70,23 +70,23 @@ module.exports = {
         buttonText: "刷新"
       }
     },
-    // '@vuepress/last-updated':// "上次更新"时间格式
-    // {
-    //   transformer: (timestamp, lang) => {
-    //     const dayjs = require('dayjs') // https://day.js.org/
-    //     dayjs.locale("zh_cn")
-    //     return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
-    //   }
-    // },
-
-    '@vuepress/last-updated':
+    '@vuepress/last-updated':// "上次更新"时间格式
     {
       transformer: (timestamp, lang) => {
-        // 不要忘了安装 moment
-        const moment = require('moment')
-        moment.locale("zh-cn")
-        return moment(timestamp).fromNow()
+        const dayjs = require('dayjs') // https://day.js.org/
+        dayjs.locale("zh_cn")
+        return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
       }
     },
+
+    // '@vuepress/last-updated':
+    // {
+    //   transformer: (timestamp, lang) => {
+    //     // 不要忘了安装 moment
+    //     const moment = require('moment')
+    //     moment.locale("zh-cn")
+    //     return moment(timestamp).fromNow('llll')
+    //   }
+    // },
   }
 }
