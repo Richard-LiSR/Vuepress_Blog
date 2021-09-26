@@ -20,7 +20,7 @@ module.exports = {
   algolia: {
     appId: "KTF30FTMKY",
     apiKey: '369fe7e98d915c5815074995b0df8aff',
-    indexName: 'docs',
+    indexName: 'indexName',
     algoliaOptions: {
       hitsPerPage: 10,
       facetFilters: ""
