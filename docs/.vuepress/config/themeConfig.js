@@ -18,9 +18,9 @@ module.exports = {
   editLinks: true, // 启用编辑
   editLinkText: '在Github中编辑',
   algolia: {
-    appId: "ZYGKXMP138",
-    apiKey: '7f8f02ef1c0e534911b5a0e736ddcbc2',
-    indexName: 'vuepress-blog',
+    appId: "GTD22M2GZE",
+    apiKey: '0ea55b292c6633ebbf85fd8bb81c165d',
+    indexName: 'blog.richard-lsr.top',
     algoliaOptions: {
       hitsPerPage: 10,
       facetFilters: ""
