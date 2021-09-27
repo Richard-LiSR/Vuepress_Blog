@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 const nav = require('./nav.js');
 // 广告页
 // const htmlModules = require('./htmlModules.js');
