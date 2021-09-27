@@ -18,12 +18,11 @@ module.exports = {
   editLinks: true, // 启用编辑
   editLinkText: '在Github中编辑',
   algolia: {
-    appId: "KTF30FTMKY",
-    apiKey: '369fe7e98d915c5815074995b0df8aff',
-    indexName: 'docs',
+    appId: "GTD22M2GZE",
+    apiKey: '0ea55b292c6633ebbf85fd8bb81c165d',
+    indexName: 'blog',
     algoliaOptions: {
-      hitsPerPage: 10,
-      facetFilters: ""
+      hitsPerPage: 15,
     }
   },
 

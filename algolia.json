@@ -1,0 +1,12 @@
+[
+    {
+        "firstname": "Richard",
+        "lastname": "Li",
+        "zip_code": 123456
+    },
+    {
+        "firstname": "Li",
+        "lastname": "ShiRun",
+        "zip_code": null
+    }
+]

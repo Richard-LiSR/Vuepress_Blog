@@ -7,7 +7,8 @@
     "deploy": "bash deploy.sh",
     "cname": "bash cname.sh",
     "publish": "cd ./theme-vdoing && npm publish && cd ../ && npm run updateTheme",
-    "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D"
+    "updateTheme": "npm uninstall vuepress-theme-vdoing &&  rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D",
+    "algolia": "cd docs/.vuepress/algolia && sudo sh crawl.sh"
   },
   "license": "MIT",
   "devDependencies": {
