@@ -21,7 +21,7 @@ module.exports = {
     apiKey: '0ea55b292c6633ebbf85fd8bb81c165d',
     indexName: 'blog',
     algoliaOptions: {
-      hitsPerPage: 15,
+      hitsPerPage: 10,
     }
   },
 
