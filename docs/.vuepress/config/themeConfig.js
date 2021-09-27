@@ -17,11 +17,11 @@ module.exports = {
   editLinks: true, // 启用编辑
   editLinkText: '在Github中编辑',
   algolia: {
-    appId: "GTD22M2GZE",
-    apiKey: '0ea55b292c6633ebbf85fd8bb81c165d',
-    indexName: 'blog',
+    appId: "ZYGKXMP138",
+    apiKey: 'bcd57ea1b44236ecd15b49f47b5e4a7f',
+    indexName: 'vue_blog',
     algoliaOptions: {
-      hitsPerPage: 10,
+      facetFilters: ""
     }
   },
 
