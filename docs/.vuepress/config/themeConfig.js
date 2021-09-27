@@ -23,6 +23,7 @@ module.exports = {
     indexName: 'vuepress-blog',
     algoliaOptions: {
       hitsPerPage: 10,
+      facetFilters: ""
     }
   },
 
