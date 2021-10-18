@@ -6,8 +6,8 @@ const moment = require('moment');
 
 
 module.exports = {
-  theme: 'vdoing', // 使用npm包主题
-  // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
+  // theme: 'vdoing', // 使用npm包主题
+  theme: require.resolve('../../theme-vdoing'), // 使用本地主题
   title: "Richard's blog",
   description: '这是一个简单的个人博客，目前还在开发中',
   // base: '/Vue_blog/', // 格式：'/<仓库名>/'， 默认'/'
@@ -78,6 +78,8 @@ module.exports = {
         return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
       }
     },
-
+    'sitemap': {
+      hostname: 'https://blog.richard-lsr.top/'
+    },
   }
 }
