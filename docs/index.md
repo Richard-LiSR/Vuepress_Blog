@@ -10,17 +10,17 @@ features: # 可选的
   - title: 前端
     details: JavaScript、ES6、Vue框架等前端技术
     link: /web/ # 可选
-    imgUrl: /img/yhy_n1.png # 可选
+    imgUrl: /img/planet.png # 可选
 
   - title: 技术
     details: 技术文档、教程、技巧、总结等文章
     link: /technology/
-    imgUrl: https://cdn.jsdelivr.net/gh/Richard-LiSR/PicBed/blog_img/yhy_n4.png
+    imgUrl: /img/satelite.png
 
   - title: 机器学习
     details: CV,NLP等热门机器学习方向，Pytorch，Keras等热门框架
     link: /machine
-    imgUrl: /img/yhy_n2.png
+    imgUrl: /img/planet2.png
 
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表

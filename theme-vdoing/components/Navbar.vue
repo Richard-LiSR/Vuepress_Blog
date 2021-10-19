@@ -91,6 +91,7 @@ function css (el, property) {
 $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 .navbar
+  opacity 0.9
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
   transition transform 0.3s
@@ -104,7 +105,7 @@ $navbar-horizontal-padding = 1.5rem
   .site-name
     font-size 1.3rem
     font-weight 600
-    color var(--textColor)
+    color #6C6C77
     position relative
   .links
     padding-left 1.5rem

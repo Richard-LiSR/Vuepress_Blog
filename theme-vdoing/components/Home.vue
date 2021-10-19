@@ -360,8 +360,18 @@ export default {
           display block
           margin 2rem auto 1.5rem
         h1
+          margin-top 1.5em;
+          color #F5F5F5
+          font-family "Lato", sans-serif;
+          text-shadow 2px 4px 4px #8B8989;
           margin 0
-          font-size 3.2rem
+          font-size 3.8rem
+        p
+          margin-top 1.5em;
+          font-family "Lato", sans-serif;
+          text-shadow 2px 4px 4px #8B8989;
+          margin 0
+          font-size 1.8rem
         .description, .action
           margin 1.5rem auto
         .description
