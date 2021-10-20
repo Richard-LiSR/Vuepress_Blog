@@ -25,7 +25,6 @@
     "vuepress-plugin-minimal-analytics": "^0.1.4",
     "vuepress-plugin-nprogress": "^1.1.8",
     "vuepress-plugin-one-click-copy": "^1.0.2",
-    "vuepress-plugin-permalink-pinyin": "^1.0.0",
     "vuepress-plugin-reading-time": "^0.1.1",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
@@ -42,7 +41,6 @@
     "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
     "vuepress-plugin-helper-live2d": "^1.0.2",
     "vuepress-plugin-meilisearch": "^0.11.3",
-    "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-umami": "^0.0.4"
   }
 }
