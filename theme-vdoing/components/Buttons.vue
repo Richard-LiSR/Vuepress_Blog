@@ -1,4 +1,3 @@
-
 <template>
   <div class="buttons">
     <transition name="fade">
@@ -47,7 +46,6 @@
 
 <script>
 import debounce from 'lodash.debounce'
-// import '//at.alicdn.com/t/font_1678482_kdcbbwxa6v.css';
 import storage from 'good-storage' // 本地存储
 const MOBILE_DESKTOP_BREAKPOINT = 719 // refer to config.styl
 
@@ -200,7 +198,6 @@ export default {
 </script>
 
 <style lang='stylus'>
-@import '//at.alicdn.com/t/font_1678482_kdcbbwxa6v.css';
 .yellowBorder
   // border: #FFE089 1px solid!important
   border-radius 5px

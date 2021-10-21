@@ -84,7 +84,6 @@ export default {
 </script>
 
 <style lang='stylus'>
-@import '//at.alicdn.com/t/font_1678482_kdcbbwxa6v.css';
 // @require '../styles/wrapper.styl'
 .article-list
   // @extend $wrapper

@@ -1,4 +1,3 @@
-
 <template>
   <form
     id="search-form"
@@ -47,9 +46,8 @@ export default {
             }, algoliaOptions),
             handleSelected: (input, event, suggestion) => {
               const { pathname, hash } = new URL(suggestion.url)
-              // console.log(pathname)
               const _hash = decodeURIComponent(hash)
-              this.$router.push(`${pathname}${_hash}`)
+              this.$router.push(`${routepath}${_hash}`)
             }
           }
         ))
@@ -96,26 +94,26 @@ export default {
       .ds-suggestions
         margin-top 0
       .ds-suggestion
-        border-bottom 1.5px solid var(--borderColor)
+        border-bottom 1px solid var(--borderColor)
     .algolia-docsearch-suggestion--highlight
-      color #008B45
+      color #2c815b
     .algolia-docsearch-suggestion
-      color #696969
       border-color var(--borderColor)
       padding 0
       .algolia-docsearch-suggestion--category-header
         padding 5px 10px
         margin-top 0
         background $accentColor
+        color #fff
         font-weight 600
         .algolia-docsearch-suggestion--highlight
-          background #696969
+          background rgba(255, 255, 255, 0.6)
       .algolia-docsearch-suggestion--wrapper
         padding 0
       .algolia-docsearch-suggestion--title
         font-weight 600
         margin-bottom 0
-        color #00323c
+        color var(--textColor)
       .algolia-docsearch-suggestion--subcategory-column
         vertical-align top
         padding 5px 7px 5px 5px
@@ -124,15 +122,12 @@ export default {
         &:after
           display none
       .algolia-docsearch-suggestion--subcategory-column-text
-        color #696969
-        font-size 16px
+        color #555
     .algolia-docsearch-footer
       border-color var(--borderColor)
     .ds-cursor .algolia-docsearch-suggestion--content
-    // 选中时突出的文本
-      font-size 20px
-      background-color #D3D3D3 !important
-      color #00323c !important
+      background-color #e7edf3 !important
+      color var(--textColor)
 @media (min-width $MQMobile)
   .algolia-search-wrapper
     .algolia-autocomplete

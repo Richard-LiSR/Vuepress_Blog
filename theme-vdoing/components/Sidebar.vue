@@ -58,7 +58,6 @@ export default {
 </script>
 
 <style lang="stylus">
-@import '//at.alicdn.com/t/font_1678482_kdcbbwxa6v.css';
 .sidebar
   ul
     padding 0

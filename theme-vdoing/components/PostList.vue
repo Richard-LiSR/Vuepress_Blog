@@ -159,7 +159,6 @@ export default {
 </script>
 
 <style lang='stylus'>
-@import '//at.alicdn.com/t/font_1678482_kdcbbwxa6v.css';
 .post-list
   margin-bottom 4rem
   .post
