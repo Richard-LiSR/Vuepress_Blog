@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd ./dist
 
 echo 'blog.richard-lsr.top' > CNAME
 git init
