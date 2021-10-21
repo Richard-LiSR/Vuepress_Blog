@@ -7,8 +7,7 @@
     "deploy": "bash deploy.sh",
     "cname": "bash cname.sh",
     "publish": "cd ./theme-vdoing && npm publish && cd ../ && npm run updateTheme",
-    "updateTheme": "npm uninstall vuepress-theme-vdoing &&  rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D",
-    "algolia": "cd docs/.vuepress/algolia && sudo sh crawl.sh"
+    "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D"
   },
   "license": "MIT",
   "devDependencies": {
@@ -20,11 +19,10 @@
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-demo-block": "^0.7.2",
-    "vuepress-plugin-dynamic-title": "^1.0.0",
-    "vuepress-plugin-go-top": "^1.0.4",
     "vuepress-plugin-minimal-analytics": "^0.1.4",
     "vuepress-plugin-nprogress": "^1.1.8",
     "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-permalink-pinyin": "^1.0.0",
     "vuepress-plugin-reading-time": "^0.1.1",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
@@ -36,11 +34,10 @@
     "@vssue/api-github-v4": "^1.4.7",
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "github-markdown-css": "^2.8.0",
-    "less-loader": "6.0.0",
     "moment": "^2.29.1",
     "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
+    "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-helper-live2d": "^1.0.2",
-    "vuepress-plugin-meilisearch": "^0.11.3",
     "vuepress-plugin-umami": "^0.0.4"
   }
 }
