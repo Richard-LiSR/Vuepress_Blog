@@ -1,7 +1,7 @@
 // head
 module.exports = [
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-  ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/Richard-LiSR/PicBed/blog_img/yhy_1.ico'}], //favicons，资源放在public文件夹
+  ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/Richard-LiSR/PicBed/blog_img/yhy_1.ico' }], //favicons，资源放在public文件夹
   [
     'meta',
     {
@@ -17,17 +17,5 @@ module.exports = [
   ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ['link', { rel: 'blog-icon', href: '/icon-192x192.png' }],
 
-  ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
-  // 配置百度统计
-  [
-    "script",
-    {},
-    `var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?f50554d8e721d0b8d1d3fd07a95431e7";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-})();`
-  ]
+  ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
 ]

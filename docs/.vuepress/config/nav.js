@@ -41,14 +41,18 @@ module.exports = [
     text: '🙌更多',
     link: '/more/',
     items: [
-      {text:'高等数学',link:''},  //新添加页面，目录中还未添加！
+      {text:'高等数学',link:''},
       { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
       { text: '友情链接', link: '/friends/' },
     ],
   },
   { text: '🤩关于', link: '/about/' },
   {
-    text: '😻解忧杂货店', link: '/pages/zahuodian/' },
+    text: '😻解忧杂货店',
+    items: [
+      { text: '杂货店', link: '/pages/beb6c0bd8a66cea6/' },
+    ],
+  },
   {
     text: '索引',
     link: '/archives/',

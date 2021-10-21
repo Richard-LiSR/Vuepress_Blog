@@ -12,10 +12,8 @@ module.exports = [
   ],
   [
     'demo-block',
-    // Demo Block 用于帮助您在编写文档时添加 vue、react 或 native js 示例。在编写组件文档时，通常需要在文档中添加一些相关示例。这些例子通常可以使用JSFiddle或者Codepen的Iframe来实现，但是维护成本会比较高。使用Demo Block可以快速添加示例，修改非常方便。
     {
       // demo演示模块 https://github.com/xiguaxigua/vuepress-plugin-demo-block
-      // 文档地址：https://daxigua.me/vuepress-plugin-demo-block/
       settings: {
         // jsLib: ['http://xxx'], // 在线示例(jsfiddle, codepen)中的js依赖
         // cssLib: ['http://xxx'], // 在线示例中的css依赖
@@ -39,5 +37,7 @@ module.exports = [
   [
     'vuepress-plugin-nprogress'
   ],
+
+  ['vuepress-plugin-reading-time'],
 
 ]
