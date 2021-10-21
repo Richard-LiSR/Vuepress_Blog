@@ -16,8 +16,8 @@ git commit -m 'deploy'
 
 
 # github地址
-# git push -f git@github.com:Richard-LiSR/Vue_blog.git master:gh-pages
-git push -f git@github.com:Richard-LiSR/Richard-LiSR.github.io.git master:gh-pages
+git push -f git@github.com:Richard-LiSR/Vue_blog.git master:gh-pages
+# git push -f git@github.com:Richard-LiSR/Richard-LiSR.github.io.git master:gh-pages
 
 
 # gitee地址

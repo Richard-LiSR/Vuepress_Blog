@@ -56,6 +56,7 @@ export default {
 </script>
 
 <style lang='stylus'>
+@import '//at.alicdn.com/t/font_1678482_kdcbbwxa6v.css';
 .categories-wrapper
   .title
     color var(--textColor)

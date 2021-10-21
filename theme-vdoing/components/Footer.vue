@@ -44,6 +44,7 @@ export default {
 </script>
 
 <style lang='stylus'>
+@import '//at.alicdn.com/t/font_1678482_kdcbbwxa6v.css';
 // $mobileSidebarWidth = $sidebarWidth * 0.82
 .footer
   padding 5rem 1.5rem 2.5rem
