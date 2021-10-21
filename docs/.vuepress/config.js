@@ -10,7 +10,7 @@ module.exports = {
   theme: require.resolve('../../theme-vdoing'), // 使用本地主题
   title: "Richard's blog",
   description: '这是一个简单的个人博客，目前还在开发中',
-  base: '/Vuepress_Blog/', // 格式：'/<仓库名>/'， 默认'/'
+  // base: '/Vuepress_Blog/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
   },
