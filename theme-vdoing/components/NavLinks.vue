@@ -118,15 +118,17 @@ export default {
 </script>
 
 <style lang="stylus">
+@import url('https://fonts.googleapis.com/css?family=Grandstander:400');
 .nav-links
   display inline-block
   a
     line-height 1.4rem
+    font-family: 'Grandstander', sans-serif;
     color inherit
     &:hover, &.router-link-active
       color $accentColor
   .nav-item
-    position relative
+    position relative !important
     display inline-block
     margin-left 1.5rem
     line-height 2rem

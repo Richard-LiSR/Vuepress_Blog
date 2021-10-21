@@ -1,3 +1,4 @@
+
 <template>
   <div class="home-wrapper">
     <!-- banner块 s -->
@@ -337,6 +338,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+@import url('https://fonts.googleapis.com/css?family=Allura:400');
+// @import url('https://fonts.googleapis.com/css?family=Ephesis:400');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon:400');
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint:400');
 .home-wrapper
   .banner
     width 100%
@@ -362,16 +367,20 @@ export default {
         h1
           margin-top 1.5em;
           color #F5F5F5
-          font-family "Lato", sans-serif;
-          text-shadow 2px 4px 4px #8B8989;
+          font-family: 'Finger Paint', sans-serif;
+          font-size: 5.653rem !important;
+          text-shadow 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02);
           margin 0
           font-size 3.8rem
+          font-weight: 400;
+          line-height: 1.75;
+          color: #ffffff;
         p
           margin-top 1.5em;
-          font-family "Lato", sans-serif;
+          font-family: 'Allura', cursive;
           text-shadow 2px 4px 4px #8B8989;
           margin 0
-          font-size 1.8rem
+          font-size 30px !important
         .description, .action
           margin 1.5rem auto
         .description

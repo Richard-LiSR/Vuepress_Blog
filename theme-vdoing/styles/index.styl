@@ -1,5 +1,7 @@
-// 引入字体图标
-@import '//at.alicdn.com/t/font_1678482_kdcbbwxa6v.css'
+// 引入图标
+@import '//at.alicdn.com/t/font_1678482_kdcbbwxa6v.css';
+//引入字体
+@import url('https://fonts.googleapis.com/css?family=Grandstander:400');
 
 @require './config'
 @require './code'
@@ -144,6 +146,7 @@ a
   font-weight 500
   color $accentColor
   text-decoration none
+  font-family: 'Grandstander', sans-serif;
 
 p a code
   font-weight 400
@@ -168,13 +171,17 @@ blockquote
 
 ul, ol
   padding-left 1.2em
+  font-family: 'Grandstander', sans-serif;
+  font-size 20px
 
 strong
   font-weight 600
+  font-family: 'Grandstander', sans-serif;
 
 h1, h2, h3, h4, h5, h6
   font-weight 600
   line-height 1.25
+  
 
   {$contentClass}:not(.custom) > &
     margin-top (0.5rem - $navbarHeight)
@@ -201,6 +208,7 @@ p,pre,.custom-block
 
 
 h1
+  font-family: 'Grand Hotel', cursive;
   font-size 1.8rem
   {$contentClass}:not(.custom) > & // 页面内容的首个h1标签隐藏
     &:first-child
@@ -208,14 +216,17 @@ h1
 
 h2
   font-size 1.5rem
+  font-family: 'Grand Hotel', cursive;
   padding-bottom .3rem
   border-bottom 1px solid var(--borderColor)
 
 h3
   font-size 1.35rem
+  font-family: 'Grand Hotel', cursive;
 
 a.header-anchor
-  font-size 0.85em
+  font-size 0.9em
+  font-family: 'Grand Hotel', cursive;
   float left
   margin-left -0.87em
   padding-right 0.23em
@@ -231,6 +242,8 @@ code, kbd, .line-number
 
 p, ul, ol
   line-height 1.7
+  font-size 20px
+  font-family: 'Grandstander', sans-serif;
 
 hr
   border 0
