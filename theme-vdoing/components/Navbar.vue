@@ -95,6 +95,7 @@ $navbar-horizontal-padding = 1.5rem
   line-height $navbarHeight - 1.4rem
   transition transform 0.3s
   a, span, img
+    font-family: 'Grandstander', sans-serif
     display inline-block
   .logo
     height $navbarHeight - 1.4rem

@@ -57,6 +57,7 @@ export default {
 
 <style lang='stylus'>
 .categories-wrapper
+  font-family: 'Grandstander', sans-serif
   .title
     color var(--textColor)
     opacity 0.9

@@ -41,7 +41,8 @@ export default {
   },
   data () {
     return {
-      tagBgColor: ['#11a8cd', '#F8B26A', '#67CC86', '#E15B64', '#F47E60', '#849B87'],
+      tagBgColor: ['#11a8cd', '#F8B26A', '#67CC86', '#E15B64', '#F47E60',
+      '#849B87','#1E90FF','#00FFFF','#FFDAB9','#00EE00'],
       tagStyleList: []
     }
   },
@@ -71,8 +72,10 @@ export default {
 
 <style lang='stylus'>
 .tags-wrapper
+
   padding 0 .95rem
   .title
+    font-family: 'Finger Paint', sans-serif
     color var(--textColor)
     opacity 0.9
     font-size 1.2rem
@@ -89,6 +92,7 @@ export default {
       transition all 0.4s
       background-color var(--textColor)
       color var(--mainBg)
+      font-family: 'Grandstander', sans-serif
       border-radius 3px
       margin 0 0.3rem 0.5rem 0
       min-width 2rem

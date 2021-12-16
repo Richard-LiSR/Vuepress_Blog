@@ -181,11 +181,13 @@ export default {
     .title-wrapper
       a
         color var(--textColor)
+        font-family: 'Grandstander', sans-serif
         &:hover
           color $accentColor
       h2
         margin 0.5rem 0
         font-size 1.4rem
+        font-family: 'Grandstander', sans-serif
         border none
         a
           @media (max-width $MQMobile)

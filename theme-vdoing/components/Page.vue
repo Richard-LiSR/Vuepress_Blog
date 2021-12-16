@@ -116,6 +116,7 @@ export default {
 @require '../styles/wrapper.styl'
 
 .page
+  font-family: 'Finger Paint', sans-serif
   padding-bottom 2rem
   display block
   @media (max-width $MQMobile)

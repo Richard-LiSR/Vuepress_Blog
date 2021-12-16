@@ -86,6 +86,7 @@ export default {
 <style lang='stylus'>
 // @require '../styles/wrapper.styl'
 .article-list
+  font-family: 'Grandstander', sans-serif
   // @extend $wrapper
   padding 1rem 2rem
   @media (max-width $MQNarrow)

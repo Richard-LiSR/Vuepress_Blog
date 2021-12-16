@@ -56,6 +56,7 @@ export default {
     height 35px
     line-height 35px
     a
+      font-family: 'Grandstander', sans-serif
       font-size 20px
       width 33%
       color var(--textColor)
@@ -69,6 +70,7 @@ export default {
     padding 0.3rem 0.95rem 0 0.95rem
     .name
       font-size 1.3rem
+      font-family: 'Grandstander', sans-serif
       display block
       margin-bottom 6px
     .slogan

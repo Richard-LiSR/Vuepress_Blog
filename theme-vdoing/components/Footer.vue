@@ -46,6 +46,7 @@ export default {
 <style lang='stylus'>
 // $mobileSidebarWidth = $sidebarWidth * 0.82
 .footer
+  font-family: 'Grandstander', sans-serif
   padding 5rem 1.5rem 2.5rem
   text-align center
   color #666

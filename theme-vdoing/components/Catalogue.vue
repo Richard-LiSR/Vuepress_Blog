@@ -153,6 +153,7 @@ dl, dd
     margin-right 1rem
   .column-info
     .title
+      font-family: 'Grandstander', sans-serif
       font-size 1.6rem
     .description
       color var(--textColor)
@@ -160,6 +161,7 @@ dl, dd
       margin 0.5rem 0
 .catalogue-wrapper
   .catalogue-title
+    font-family: 'Grandstander', sans-serif
     font-size 1.45rem
     margin 2rem 0
   .catalogue-content

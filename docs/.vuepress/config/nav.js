@@ -48,10 +48,7 @@ module.exports = [
   },
   { text: '🤩关于', link: '/about/' },
   {
-    text: '😻解忧杂货店',
-    items: [
-      { text: '杂货店', link: '/pages/beb6c0bd8a66cea6/' },
-    ],
+    text: '😻解忧杂货店', link: '/pages/beb6c0bd8a66cea6/'
   },
   {
     text: '索引',

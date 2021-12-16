@@ -105,6 +105,7 @@ export default {
 
 <style lang="stylus">
 .dropdown-wrapper
+  font-family: 'Grandstander', sans-serif
   cursor pointer
   .dropdown-title
     display block

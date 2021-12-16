@@ -80,6 +80,7 @@ export default {
     padding 1.5rem 0
     & > li > a.sidebar-link
       font-size 1.1em
+      font-family: 'Finger Paint', sans-serif
       line-height 1.7
       font-weight bold
     & > li:not(:first-child)

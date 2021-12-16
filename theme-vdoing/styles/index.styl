@@ -1,5 +1,10 @@
 // 引入字体图标
 @import '//at.alicdn.com/t/font_1678482_kdcbbwxa6v.css'
+//引入字体
+@import url('https://fonts.googleapis.com/css?family=Grandstander:400')
+@import url('https://fonts.googleapis.com/css?family=Allura:400')
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon:400')
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint:400')
 
 @require './config'
 @require './code'
@@ -168,9 +173,13 @@ blockquote
 
 ul, ol
   padding-left 1.2em
+  font-family: 'Grandstander', sans-serif
+  font-size 20px
 
 strong
   font-weight 600
+  font-family: 'Grandstander', sans-serif
+
 
 h1, h2, h3, h4, h5, h6
   font-weight 600
@@ -195,6 +204,7 @@ h1, h2, h3, h4, h5, h6
 
 // 没有h1标签时
 p,pre,.custom-block
+  font-family: 'Grandstander', sans-serif
   {$contentClass}:not(.custom) > &
       &:first-child
         margin-top 2rem
@@ -202,19 +212,23 @@ p,pre,.custom-block
 
 h1
   font-size 1.8rem
+  font-family: 'Grandstander', sans-serif
   {$contentClass}:not(.custom) > & // 页面内容的首个h1标签隐藏
     &:first-child
       display none
 
 h2
   font-size 1.5rem
+  font-family: 'Grandstander', sans-serif
   padding-bottom .3rem
   border-bottom 1px solid var(--borderColor)
 
 h3
   font-size 1.35rem
+  font-family: 'Grandstander', sans-serif
 
 a.header-anchor
+  font-family: 'Grandstander', sans-serif
   font-size 0.85em
   float left
   margin-left -0.87em

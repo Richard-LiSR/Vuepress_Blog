@@ -47,7 +47,7 @@ export default {
             handleSelected: (input, event, suggestion) => {
               const { pathname, hash } = new URL(suggestion.url)
               const _hash = decodeURIComponent(hash)
-              this.$router.push(`${routepath}${_hash}`)
+              this.$router.push(`${pathname}${_hash}`)
             }
           }
         ))
@@ -94,26 +94,26 @@ export default {
       .ds-suggestions
         margin-top 0
       .ds-suggestion
-        border-bottom 1px solid var(--borderColor)
+        border-bottom 1.5px solid var(--borderColor)
     .algolia-docsearch-suggestion--highlight
-      color #2c815b
+      color #008B45
     .algolia-docsearch-suggestion
+      color #696969
       border-color var(--borderColor)
       padding 0
       .algolia-docsearch-suggestion--category-header
         padding 5px 10px
         margin-top 0
         background $accentColor
-        color #fff
         font-weight 600
         .algolia-docsearch-suggestion--highlight
-          background rgba(255, 255, 255, 0.6)
+          background #696969
       .algolia-docsearch-suggestion--wrapper
         padding 0
       .algolia-docsearch-suggestion--title
         font-weight 600
         margin-bottom 0
-        color var(--textColor)
+        color #00323c
       .algolia-docsearch-suggestion--subcategory-column
         vertical-align top
         padding 5px 7px 5px 5px
@@ -122,12 +122,15 @@ export default {
         &:after
           display none
       .algolia-docsearch-suggestion--subcategory-column-text
-        color #555
+        color #696969
+        font-size 16px
     .algolia-docsearch-footer
       border-color var(--borderColor)
     .ds-cursor .algolia-docsearch-suggestion--content
-      background-color #e7edf3 !important
-      color var(--textColor)
+    // 选中时突出的文本
+      font-size 20px
+      background-color #D3D3D3 !important
+      color #00323c !important
 @media (min-width $MQMobile)
   .algolia-search-wrapper
     .algolia-autocomplete

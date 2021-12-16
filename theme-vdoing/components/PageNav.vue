@@ -167,6 +167,7 @@ function flatten (items, res) {
 @require '../styles/wrapper.styl'
 
 .page-nav
+  font-family: 'Finger Paint', sans-serif
   @extend $wrapper
   padding-top 1rem
   padding-bottom 0

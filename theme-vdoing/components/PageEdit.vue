@@ -126,6 +126,7 @@ export default {
 @require '../styles/wrapper.styl'
 
 .page-edit
+  font-family: 'Grandstander', sans-serif
   @extend $wrapper
   padding-top 1rem
   padding-bottom 1rem
@@ -144,12 +145,14 @@ export default {
       color var(--textLightenColor)
       padding 0.2rem 0.7rem
       font-size 0.9em
+      
       background-color rgba(128, 128, 128, 0.08)
       border-radius 3px
       opacity 0.8
   .last-updated
     float right
     font-size 0.9em
+    
     .prefix
       font-weight 500
       color var(--textColor)
